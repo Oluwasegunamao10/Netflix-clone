@@ -2,60 +2,74 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  background: #000 !important;
 }
-html{
+
+html {
   height: 100%;
 }
-.left{
-  float: left;
-  font-size: 40px;
-  width: 300px;
-  height: auto;
-  margin: 50px;
-  margin-left: 100px;
+.logo {
+  margin: 6rem;
+  margin-top: 2rem;
 }
-.myImg{
+
+.red {
+  color: #e50914;
+  font-size: 40px;
+}
+.red2 {
+  color: #fff;
+  font-size: 12px;
+  background-color: #e50914;
+  float: right;
+  border: #e50914;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+}
+
+.line {
+  width: 100%;
+  border: 5px solid #232323;
+}
+
+.myImg1 {
   width: 400px;
   height: auto;
-  border: 5px solid black;
-  border-radius: 20px 30px 30px 20px;
+  padding-left: 90px;
 }
-.right{
+.myImg2 {
+  width: 400px;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 90px;
+}
+.myImg3 {
+  width: 400px;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 90px;
+}
+.right {
   float: right;
   font-size: 40px;
   width: 300px;
   height: auto;
-  margin: 50px;
+  margin: 6rem;
   margin-right: 100px;
+  color: white;
 }
-/* 
-.form{
-display: flex;
-align-content: center;
-justify-content: center;
-height: 100px;
-padding-top: 30px;
+.left {
+  float: left;
+  font-size: 40px;
+  width: 300px;
+  height: auto;
+  margin: 6rem;
+  margin-left: 100px;
+  color: #fff;
 }
-
-#email{
-  font-size: 18px;
-  background: #111;
-  color: #f7f3f3fb ;
-  border: none;
-  outline: none;
-  background: #ececec ;
-}
-.form-box button{
- color: #f10a0a;
-  padding: 15px 20px;
-  font-size: 20px;
-  border: none;
-  border-radius: 5px;
-  background: #4769d8;
-} 
-.form-box{
-  padding: 10px;
-} */
 footer {
   background-color: #111;
   color: #fff;
@@ -73,29 +87,48 @@ ul {
 ul li {
   margin-bottom: 5px;
 }
-.space{
-display: inline;
-margin-right: 200px;
-padding-top: 40px;
-padding-right: 60px;
+.space {
+  display: inline;
+  margin-right: 200px;
+  padding-top: 40px;
+  padding-right: 60px;
 }
-.aboveemailbutton{
-  color: rgb(211, 21, 21);
+.aboveemailbutton {
   font-size: 70px;
-  font-family:sans-serif;
-  position: relative; 
+  font-family: sans-serif;
+  position: relative;
   text-align: center;
+  color: #fff;
 }
-.belowemailbutton{
+.belowemailbutton {
   text-align: center;
   font-size: 30px;
+  font-family: sans-serif;
   position: relative;
-  color: rgb(221, 30, 30); 
+  color: #fff;
 }
-.span{
+.span {
   font-size: 30px;
   padding-inline: 5px;
- display: inline-flex;
+  display: inline-flex;
+  color: #fff;
 }
-
+.center1 {
+  margin: 0 15%;
+}
+.center {
+  text-align: justify;
+  border: 1px solid white;
+  color: white;
+  margin: 20px;
+  height: 80px;
+  width: 1000px;
+  padding-left: 25px;
+  padding-top: 10px;
+  display: ;
+  background-color: rgb(97, 94, 89);
+}
+.center2{
+  
+}
 /* Add any additional styling as needed */
